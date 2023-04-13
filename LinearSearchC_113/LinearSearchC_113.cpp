@@ -45,6 +45,14 @@ void LinearSearch()
 
         ctr = 0; 
         for (i = 0; i < n; i++)                             // Langkah no 2 & 3 & 4
+        {
+            ctr++;
+            if (arr[i] == item)                             //Langkah no 5 Algoritma 
+            {
+                cout << "\n" << item << " found at position " << (i + 1) << endl;
+                break;
+            }
+        }
 int main()
 {
     std::cout << "Hello World!\n";
