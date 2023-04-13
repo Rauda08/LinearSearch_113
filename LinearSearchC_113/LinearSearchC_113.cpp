@@ -5,6 +5,7 @@ int arr[20]; //Array to be searched
 int n; // number of elements in array
 int i; // Index of array element
 
+
 int main()
 {
     std::cout << "Hello World!\n";
