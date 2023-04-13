@@ -23,12 +23,10 @@ void input()
     cout << "-----------------------------\n";
     for (i = 0; i < n; i++)
     {
-        cout << "<" << (i + 1) << ">" ";
-            cin >> arr[i];
+        cout << "<" << (i + 1) << ">";
+        cin >> arr[i];
     }
 }
-
-
 
 void LinearSearch()
 {
@@ -54,7 +52,7 @@ void LinearSearch()
         }
 
         if (i == n)
-            cout << "\n" << item << " not found in the array\";
+            cout << "\n" << item << " not found in the array\n";
             cout << "\nNumber of comparisons: " << ctr << endl;
 
         cout << "\nContinue search (y/n): ";
@@ -63,5 +61,6 @@ void LinearSearch()
 }
 int main()
 {
-    
+    input();
+    LinearSearch();
 }
